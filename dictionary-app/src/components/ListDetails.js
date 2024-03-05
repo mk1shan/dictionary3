@@ -9,6 +9,7 @@ const ListDetails = ({ result }) => {
         console.log({ e });
       }
     }
+    
   
     return (
       <div className="card mt-20">
@@ -30,6 +31,7 @@ const ListDetails = ({ result }) => {
           <div>
             <h3>Meaning:</h3>
             <p>{meanings[0].definitions[0].definition}</p>
+            
           </div>
   
           <div>

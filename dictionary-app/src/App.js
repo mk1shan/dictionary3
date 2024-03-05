@@ -12,6 +12,7 @@ export default function App() {
   const [result, setResult] = useState(null);
 
   const api = "https://api.dictionaryapi.dev/api/v2/entries/en";
+  
 
   async function handleSearch() {
     try {
